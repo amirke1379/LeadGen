@@ -1,0 +1,7 @@
+flask
+flask-cors
+python-dotenv
+requests
+openai
+twilio
+sib-api-v3-sdk

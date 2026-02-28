@@ -1,0 +1,31 @@
+# Environment
+.env
+*.env.local
+
+# Python
+server/.venv/
+server/__pycache__/
+server/**/__pycache__/
+server/*.pyc
+server/**/*.pyc
+server/*.db
+server/*.db-journal
+server/*.db-wal
+
+# Node
+client/lead-gen-ui/node_modules/
+client/lead-gen-ui/.react-router/
+client/lead-gen-ui/build/
+client/lead-gen-ui/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Claude
+.claude/
